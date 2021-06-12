@@ -1,4 +1,4 @@
-import 'package:ecom_app_1/screens/HomePage.dart';
+import 'package:ecom_app_1/screens/mainScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: HomePage(),
+      home: MainScreen(),
     );
   }
 }

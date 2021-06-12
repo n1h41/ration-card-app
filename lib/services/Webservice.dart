@@ -1,10 +1,10 @@
 import 'package:http/http.dart' as http;
 
-const server_url = "http://10.0.2.2:3033";
+import '../globals.dart';
 
 class Webservice {
   Future loginUser(data) async {
-    final url = "$server_url/login";
+    final url = Uri.parse('$host/authentication/sign-in');
     final response = await http.post(
       url,
       headers: {'Content-Type': 'application/json'},
@@ -14,7 +14,7 @@ class Webservice {
   }
 
   Future registerUser(data) async {
-    final url = "$server_url/register";
+    final url = Uri.parse('$host/authentication/register');
     final response = await http.post(
       url,
       headers: {'Content-Type': 'application/json'},

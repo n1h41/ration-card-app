@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "13537945939",
+    "project_id": "r-app-fb225",
+    "storage_bucket": "r-app-fb225.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13537945939:android:a25e55a8356cea406259a6",
+        "android_client_info": {
+          "package_name": "com.example.ecom_app_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13537945939-4nbnurlr5rvgcf4a0hvffca7945vp4iu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecom_app_1",
+            "certificate_hash": "759580991af9fddcfac5f49ce657f05c066af57a"
+          }
+        },
+        {
+          "client_id": "13537945939-a79nlra13vb9e1vhafdvu0a9sj0fik3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6_1hqvZ97Bp8RxvWdo2su9CxRc_-1xgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13537945939-a79nlra13vb9e1vhafdvu0a9sj0fik3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
